@@ -1,9 +1,17 @@
 {
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
   "env": {
     "browser": true,
     "node": true
   },
   "rules": {
-    "no-unused-expressions": 0
+    "no-unused-expressions": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0
   }
 }

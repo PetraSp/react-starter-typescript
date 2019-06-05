@@ -35,6 +35,8 @@
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.3",
+    "@types/styled-components": "^4.1.16",
+    "material-table": "^1.39.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
@@ -45,6 +47,8 @@
     "styled-components": "^4.2.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.8.0",

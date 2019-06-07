@@ -2,7 +2,11 @@ import React from 'react';
 
 import {StyledMenuBar, StyledMenuItem} from './styles';
 
-const Menu = () => (
+export interface MenuProps {
+    name?: string;
+}
+
+const Menu = (props: MenuProps) => (
     <StyledMenuBar>
         <StyledMenuItem>Home</StyledMenuItem>
         <StyledMenuItem>Contracts</StyledMenuItem>
